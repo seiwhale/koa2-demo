@@ -1,21 +1,22 @@
 # koa2-demo
 基于Koa2+ejs实现简单的前后端交互
-# 安装淘宝镜像cnpm
+## 安装淘宝镜像cnpm
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-# 安装依赖
+## 安装依赖
 cnpm install
 
-# 数据建库初始化
+## 数据建库初始化
 npm run init_sql
 
-# 编译react.js源码
+## 编译react.js源码
 npm run start_static
 
-# 启动服务
+## 启动服务
 npm run start_server
 
-# 目录文件设计
+## 目录文件设计
+```
 ├── init # 数据库初始化目录
 │   ├── index.js # 初始化入口文件
 │   ├── sql/    # sql脚本文件目录
@@ -35,3 +36,4 @@ npm run start_server
     ├── build/   # webpack编译配置目录
     ├── output/  # 编译后前端代码目录&静态资源前端访问目录
     └── src/ # 前端源代码目录
+```
